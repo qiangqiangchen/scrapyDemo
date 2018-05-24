@@ -11,6 +11,14 @@
 
 BOT_NAME = 'xiaocao'
 
+
+#mysql数据库配置
+MYSQL_HOST='127.0.0.1'
+MYSQL_DBNAME='xiaocao'
+MYSQL_USER='root'
+MYSQL_PASSWD='root'
+MYSQL_PORT=3306
+
 SPIDER_MODULES = ['xiaocao.spiders']
 NEWSPIDER_MODULE = 'xiaocao.spiders'
 
